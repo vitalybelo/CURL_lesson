@@ -1,0 +1,21 @@
+# ninja log v5
+1	98	6933219109855183	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	86c70b51f7672d43
+3814	3916	6933219148038121	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	c7bdc856f048fdc4
+1	98	6933219109855183	D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	86c70b51f7672d43
+98	3814	6933219147018007	D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	357663b80219176
+98	3814	6933219147018007	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	357663b80219176
+3814	3916	6933219148038121	D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	c7bdc856f048fdc4
+4292	4380	6933219152678433	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	eb33d8d242159c39
+3916	4020	6933219149078180	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	6e198460767bcf97
+3916	4020	6933219149078180	D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	6e198460767bcf97
+4020	4112	6933219149978239	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	c7eaf0403977c026
+4020	4112	6933219149978239	D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	c7eaf0403977c026
+4112	4202	6933219150908303	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	7a41b258b3fd8e17
+4112	4202	6933219150908303	D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	7a41b258b3fd8e17
+4203	4292	6933219151798378	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	32e48eb06c8fd20
+4203	4292	6933219151798378	D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	32e48eb06c8fd20
+4292	4380	6933219152678433	D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	eb33d8d242159c39
+4380	4517	6933219154048553	D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	e8af604d2b711c76
+4380	4517	6933219154048553	CMakeFiles/curl-populate-complete	e8af604d2b711c76
+4380	4517	6933219154048553	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	e8af604d2b711c76
+4380	4517	6933219154048553	D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	e8af604d2b711c76
