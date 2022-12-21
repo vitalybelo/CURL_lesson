@@ -296,63 +296,6 @@ CMAKE_USE_WOLFSSL:BOOL=OFF
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Set to ON to build cpr ssl tests
-CPR_BUILD_TESTS_SSL:BOOL=OFF
-
-//Set to ON to disable use of signals in libcurl.
-CPR_CURL_NOSIGNAL:BOOL=OFF
-
-//Set to ON to enable Cppcheck static analysis. Requires CPR_BUILD_TESTS
-// and CPR_BUILD_TESTS_SSL to be OFF to prevent checking google
-// tests source code.
-CPR_ENABLE_CPPCHECK:BOOL=OFF
-
-//Set to ON to enable clang linting.
-CPR_ENABLE_LINTING:BOOL=OFF
-
-//Enables or disables the SSL backend. Required to perform HTTPS
-// requests.
-CPR_ENABLE_SSL:BOOL=ON
-
-//Force to use the DarwinSSL backend. If CPR_FORCE_OPENSSL_BACKEND,
-// CPR_FORCE_DARWINSSL_BACKEND, CPR_FORCE_MBEDTLS_BACKEND, and
-// CPR_FORCE_WINSSL_BACKEND are set to to OFF, cpr will try to
-// automatically detect the best available SSL backend (WinSSL
-// - Windows, OpenSSL - Linux, DarwinSSL - Mac ...).
-CPR_FORCE_DARWINSSL_BACKEND:BOOL=OFF
-
-//Force to use the Mbed TLS backend. If CPR_FORCE_OPENSSL_BACKEND,
-// CPR_FORCE_DARWINSSL_BACKEND, CPR_FORCE_MBEDTLS_BACKEND, and
-// CPR_FORCE_WINSSL_BACKEND are set to to OFF, cpr will try to
-// automatically detect the best available SSL backend (WinSSL
-// - Windows, OpenSSL - Linux, DarwinSSL - Mac ...).
-CPR_FORCE_MBEDTLS_BACKEND:BOOL=OFF
-
-//Force to use the OpenSSL backend. If CPR_FORCE_OPENSSL_BACKEND,
-// CPR_FORCE_DARWINSSL_BACKEND, CPR_FORCE_MBEDTLS_BACKEND, and
-// CPR_FORCE_WINSSL_BACKEND are set to to OFF, cpr will try to
-// automatically detect the best available SSL backend (WinSSL
-// - Windows, OpenSSL - Linux, DarwinSSL - Mac ...).
-CPR_FORCE_OPENSSL_BACKEND:BOOL=OFF
-
-//If enabled we will use the curl lib already installed on this
-// system.
-CPR_FORCE_USE_SYSTEM_CURL:BOOL=OFF
-
-//Force to use the WinSSL backend. If CPR_FORCE_OPENSSL_BACKEND,
-// CPR_FORCE_DARWINSSL_BACKEND, CPR_FORCE_MBEDTLS_BACKEND, and
-// CPR_FORCE_WINSSL_BACKEND are set to to OFF, cpr will try to
-// automatically detect the best available SSL backend (WinSSL
-// - Windows, OpenSSL - Linux, DarwinSSL - Mac ...).
-CPR_FORCE_WINSSL_BACKEND:BOOL=OFF
-
-//Set to ON to generate coverage reports.
-CPR_GENERATE_COVERAGE:BOOL=OFF
-
-//If ON, this project will look in the system paths for an installed
-// gtest library. If none is found it will use the build in one.
-CPR_USE_SYSTEM_GTEST:BOOL=OFF
-
 //Value Computed by CMake
 CURL_BINARY_DIR:STATIC=D:/AGoogle/SkillBox/_C++/CURL_lesson/cmake-build-debug/_deps/curl-build
 
@@ -934,7 +877,6 @@ CMAKE_USE_GSSAPI-ADVANCED:INTERNAL=1
 CMAKE_USE_LIBSSH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_USE_LIBSSH2
 CMAKE_USE_LIBSSH2-ADVANCED:INTERNAL=1
-CMAKE_USE_SECTRANSP:INTERNAL=OFF
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 CPR_LIBRARIES:INTERNAL=cpr
